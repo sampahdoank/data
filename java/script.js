@@ -1,5 +1,5 @@
 const config = {
-    token: 'ghp_7vSCgOnuQrRtgvCs1HAUBzG4PpwSp83nIYd0', // langsung token
+    token: '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',
     repoOwner: 'sampahdoank',
     repoName: 'data',
     filePath: 'nomor/user.json',
