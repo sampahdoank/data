@@ -1,5 +1,5 @@
 const config = {
-    token: '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',
+    token: process.env.GITHUB_TOKEN,
     repoOwner: 'sampahdoank',
     repoName: 'data',
     filePath: 'nomor/user.json',
