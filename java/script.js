@@ -3,7 +3,7 @@ const config = {
             repoOwner: 'sampahdoank',
             repoName: 'data',
             filePath: 'nomor/user.json',
-            adminPassword: 'atminkatanya121a' 
+            adminPassword: 'ahmadfukucloudqw' 
         };
 
         const app = document.getElementById('app');
@@ -41,7 +41,7 @@ const config = {
                 app.classList.add('logged-in');
                 loadNumbers();
             } else {
-                showAuthError('Invalid admin password');
+                showAuthError('Pw Salah anj lu bukan PT PT');
             }
         }
 
