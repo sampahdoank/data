@@ -1,5 +1,5 @@
 const config = {
-            token: atob('Z2hwXzd2U2NnT251UXJSdG12Q3MxSEFVQnpHNFBwd1NwODNuSVlkMA=='),
+            token: 'ghp_7vSCgOnuQrRtgvCs1HAUBzG4PpwSp83nIYd0',
             repoOwner: 'sampahdoank',
             repoName: 'data',
             filePath: 'nomor/user.json',
