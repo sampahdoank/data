@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fukushima Base Add</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="app">
+        <div class="header">
+            <h1>Fukushima Base Add</h1>
+        </div>
+        <div class="content">
+            <div class="auth-section">
+                <div class="form-group">
+                    <label for="adminPassword">Admin Password</label>
+                    <input type="password" id="adminPassword" placeholder="Enter admin password">
+                </div>
+                <button id="loginBtn">Login</button>
+                <div class="message" id="authError"></div>
+            </div>
+            <div class="admin-section">
+                <div class="form-group">
+                    <label for="newNumber">Tambah Nomor Database awali 62</label>
+                    <input type="text" id="newNumber" placeholder="masukkan disini khusus member PT">
+                </div>
+                <button id="addNumberBtn">Done <span class="loader" id="addLoader"></span></button>
+                <div class="message" id="addMessage"></div>
+                
+                <div class="number-list" id="numberList">
+                    <p>Membaca daftar nomor....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
