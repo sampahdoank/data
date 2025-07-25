@@ -61,7 +61,10 @@ async function loadNumbers() {
             }
         );
 
-        if (!response.ok) throw new Error('Failed to load numbers');
+        if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`HTTP ${response.status}: ${text}`);
+}
         const data = await response.json();
         const content = JSON.parse(atob(data.content.replace(/\s/g, '')));
         numbersData = content;
